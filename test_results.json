@@ -1,0 +1,18 @@
+[
+    {
+        "test": "test_exchange_rate_positive (__main__.TestExchangeRateAPI.test_exchange_rate_positive)",
+        "result": "success"
+    },
+    {
+        "test": "test_invalid_currency_code (__main__.TestExchangeRateAPI.test_invalid_currency_code)",
+        "result": "success"
+    },
+    {
+        "test": "test_response_contains_expected_fields (__main__.TestExchangeRateAPI.test_response_contains_expected_fields)",
+        "result": "success"
+    },
+    {
+        "test": "test_status_code (__main__.TestExchangeRateAPI.test_status_code)",
+        "result": "success"
+    }
+]
