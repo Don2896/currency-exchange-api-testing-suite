@@ -59,20 +59,14 @@ The tests will output results in both the terminal and in `test_results.json`.
 
 The suite currently tests:
 
-- ✅ API responds with a `200` status code
-- ✅ Valid exchange rate is returned for a currency pair
-- ✅ API handles invalid currency codes properly
-- ✅ Response JSON includes important fields like `"time_last_update_utc"`
+- API responds with a `200` status code
+- Valid exchange rate is returned for a currency pair
+- API handles invalid currency codes properly
+- Response JSON includes important fields like `"time_last_update_utc"`
 
-# Technologies Used
 
-- Python 3.x
-- `requests`
-- `unittest`
-- `.env` for secrets management
-- `json` for test output serialization
 
-# Why This Project
+# Aims of this Project
 
 This project was designed to showcase:
 
@@ -83,11 +77,10 @@ This project was designed to showcase:
 
 # Next Steps
 
-- Add CLI argument parsing for dynamic testing
 - Integrate with Postman test collection or CI pipelines
 - Extend test coverage to include more currency scenarios
 
-# Author
+
 
 Donald Okorejior
 
